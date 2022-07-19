@@ -53,13 +53,21 @@ const pergunta1 = prompt("vc esta usando roupa azul?")
 const pergunta2 = prompt ("você esta gosta de beattles ?")
 const pergunta3 = prompt("você é religioso?")
 
-const resposta1 = prompt(pergunta1)
-const resposta2 = prompt(pergunta2)
-const resposta3 = prompt(pergunta3)
+const resposta1 = (pergunta1)
+const resposta2 = (pergunta2)
+const resposta3 = (pergunta3)
+
+console.log(resposta1, resposta2, resposta3)
+
 
 let a=10
 let b=25
 let c;
 
 c=a
+a=b
 b=c
+
+
+console.log(a)
+console.log(b)
